@@ -1,0 +1,27 @@
+/* Reset CSS */
+
+/* Establecer márgenes y rellenos en todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Normalizar la apariencia de los elementos */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Asegurar que los elementos de lista se muestren de manera uniforme en todos los navegadores */
+ul {
+    list-style: none;
+}
+
+/* Establecer el tamaño de fuente predeterminado y el color en el cuerpo */
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
