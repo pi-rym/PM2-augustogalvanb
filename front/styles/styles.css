@@ -72,3 +72,7 @@ li{
 .titulo{
     max-width: 150px;
 }
+
+a{
+    text-decoration: none;
+}
