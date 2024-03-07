@@ -37,6 +37,8 @@ const infoPeliculas = (data) => {
 };
 
 const renderPeliculas = () => {
+    const contenedorPeliculas = document.getElementById('contenedorPeliculas');
+
     const peliculas = repositorio.darPeliculas();
 
     const TodasLasPeliculas = peliculas.map(mapearPeliculas);
@@ -45,7 +47,7 @@ const renderPeliculas = () => {
 }
 
 const mapearPeliculas = (pelicula) => {
-    const contenedorPeliculas = document.getElementById('contenedorPeliculas');
+    
 
     const nuevoDiv = document.createElement('div');
     const imagenPelicula = document.createElement('img');
