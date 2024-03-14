@@ -1,5 +1,5 @@
 const { Router } = require('express')
-const movieRoute = require('./moviesRoute')
+const movieRoute = require('./movieRoute')
 
 
 

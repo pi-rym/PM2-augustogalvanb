@@ -1,4 +1,4 @@
-// const renderMovies = require("./renderMovies")
+const renderMovies = require("./renderMovies")
 
 // function solicitudGet ()  {
 //   $.get(`https://students-api.up.railway.app/movies`, renderMovies);
@@ -29,8 +29,8 @@ const axios = require("axios");
 
 const fetchMovies = async () => {
   try {
-    const data = await axios.get("https://students-api.up.railway.app/movies")
-    data.data;
+    const data = await axios.get("http://localhost:3000/movies")
+    renderMovies(data.data);
   } catch (error) {
     error.message
   }
