@@ -9,7 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-    <title>Página2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Proyecto Integrador de M2</title>
   </head>
   <body>
     <header>
@@ -47,33 +48,21 @@
       </nav>
   </header>
   <main>
-      <section>
-        <article>
-        <h2>Proyecto integrador 2</h2>
-        <p>Desarrollo de una aplicación de películas, en la que se podrá crear, eliminar, modificar y buscar peliculas</p>
-        </article>
-      </section>
-      
-      <section >
-      </section>
-      
-      <section>
-      </section>
-      
-      <footer>
-      </footer>
-  </main>
-
-
-
-
-
-
-
-
-
-
+    <h1>Suba una película</h1>
+    <!-- <form> -->
+        <div class="divForm"><span>Título:</span><input id="inputTitle" type="text"></div>
+        <div class="divForm"><span>Año:</span><input id="inputYear" type="number"></div>
+        <div class="divForm"><span>Director:</span><input id="inputDirector" type="text"></div>
+        <div class="divForm"><span>Duración:</span><input id="inputDuration" type="text"></div>
+        <div class="divForm"><span>Género:</span><input id="inputGenre" type="text" placeholder="terror, drama ..."></div>
+        <div class="divForm"><span>Puntuación:</span><input id="inputRate" type="number" step="any"></div>
+        <div class="divForm"><span>Poster:</span><input id="inputPoster" type="text"></div>
+        <button id='button' type="button">Agregar</button>
+        <button id="buttonDelete" type="button">Limpiar</button>
+    <!-- </form> -->
 
     
+  </main>
+  <script src="./public/bundle2.js"></script>
   </body>
 </html>

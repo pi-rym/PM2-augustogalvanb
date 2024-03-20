@@ -85,3 +85,12 @@ article {
     margin-left: 5em;
     margin-top: 2em;
 }
+
+span  {
+    display: inline-block;
+    width: 6em;
+}
+
+.divForm {
+    margin-bottom: 2em;
+}
